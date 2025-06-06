@@ -32,6 +32,9 @@ titres_films =(titres_films).sort_values()
 st.title("Bienvenue dans notre moteur de recherche!")
 
 film_depart=st.selectbox("Selectionne un film que tu as aimé", titres_films)
+checkbox_film=st.checkbox("Informations sur le film")
+checkbox_recommand=st.checkbox("Films similaires")
+
 
 
 
